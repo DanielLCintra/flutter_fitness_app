@@ -2,7 +2,7 @@
 
 ## Preview
 
-![My image](daniellcintra.github.io/images/fitnessapp.png)
+![My image](https://daniellcintra.github.io/images/fitnessapp.png)
 
 ## O DESAFIO
 João é dono de uma academia, ele está procurando a solucão de um problema recorrente no seu estabelecimento. O problema acontece na avaliação dos seus clientes, pois nesse momento o indivíduo passa por métricas para definir a quantidade de calorias diárias que é necessário para se obter uma boa forma. Na academia os alimentos são divididos em 3 grupos, Grupo A, Grupo B e Grupo C. Com isso, cada grupo contém uma quantidade n de alimentos.

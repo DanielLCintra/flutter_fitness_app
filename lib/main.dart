@@ -8,6 +8,9 @@ class FitnessApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Fitness App',
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
+      ),
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );

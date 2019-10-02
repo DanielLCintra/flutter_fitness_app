@@ -14,6 +14,10 @@ class FoodBloc extends BlocBase {
   }
 
   void filterFoods(calories) {
+    if (calories == '') {
+      availableFoods = foods;
+      return;
+    }
     availableFoods = [];
     notifyListeners();
 

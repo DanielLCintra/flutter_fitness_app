@@ -1,11 +1,11 @@
-import './grupo.dart';
+import './group.dart';
 
 class Food {
   String nome;
   int calorias;
   int idAlimento;
   int idGrupo;
-  Grupo grupo;
+  Group grupo;
 
   Food({this.nome, this.calorias, this.idAlimento, this.idGrupo});
 
@@ -14,6 +14,6 @@ class Food {
     calorias = json['calorias'];
     idAlimento = json['id_alimento'];
     idGrupo = json['id_grupo'];
-    grupo = json['grupo'] != null ? new Grupo.fromJson(json['grupo']) : null;
+    grupo = json['grupo'] != null ? new Group.fromJson(json['grupo']) : null;
   }
 }

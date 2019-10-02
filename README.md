@@ -1,16 +1,18 @@
 # flutter_fitness_app
 
-A new Flutter project.
+## Preview
 
-## Getting Started
+![My image](daniellcintra.github.io/images/fitnessapp.png)
 
-This project is a starting point for a Flutter application.
+## O DESAFIO
+João é dono de uma academia, ele está procurando a solucão de um problema recorrente no seu estabelecimento. O problema acontece na avaliação dos seus clientes, pois nesse momento o indivíduo passa por métricas para definir a quantidade de calorias diárias que é necessário para se obter uma boa forma. Na academia os alimentos são divididos em 3 grupos, Grupo A, Grupo B e Grupo C. Com isso, cada grupo contém uma quantidade n de alimentos.
 
-A few resources to get you started if this is your first Flutter project:
+Nesse universo, uma pessoa precisa comer um alimento de cada grupo para manter a sua dieta de calorias.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Então o João precisa de um sistema aonde ele insere a quantidade de calorias e consegue consultar todas as possíveis combinações de 3 alimentos de grupos diferentes que somados vão atingir a meta calórica.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Bibliotecas Utilizadas
+
+ - flutter
+ - dio
+ - bloc_pattern

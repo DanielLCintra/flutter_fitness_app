@@ -1,12 +1,12 @@
-class Grupo {
+class Group {
   String nome;
   int idGrupo;
 
-  Grupo({this.nome, this.idGrupo});
+  Group({this.nome, this.idGrupo});
 
-  Grupo.fromJson(Map<String, dynamic> json) {
+  Group.fromJson(Map<String, dynamic> json) {
     nome = json['nome'];
-    idGrupo = json['id_grupo'];
+    idGrupo = json['id_Group'];
   }
 
   Map<String, dynamic> toJson() {
